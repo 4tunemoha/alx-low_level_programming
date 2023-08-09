@@ -9,10 +9,10 @@
  * Return: the array filled
  */
 
-char *create_array(insignedd int size, char c)
+char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
-	cher *S;
+	char *S;
 
 	if (size == 0)
 		return (NULL);
@@ -21,7 +21,7 @@ char *create_array(insignedd int size, char c)
 		return (NULL);
 	for (i = 0; i < size; i++)
 	{
-		s[i] = c;
+		S[i] = c;
 	}
-	return (s);
+	return (S);
 }
